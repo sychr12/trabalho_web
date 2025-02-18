@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:black
+}
+.login-container {
+    position: relative;
+    width: 310px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 90px white;
+    text-align: center;
+}
+h2 {
+    margin: 10px 0;
+    color: #fdf4f4;
+}
+
+P{
+    color: #fdf4f4;
+}
+
+input {
+    position: relative;
+    top: 35%;
+    margin: 10px ;
+    padding: 15px 23px 15px 30px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+}
+button {
+    position: relative;
+    top: 55%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+.wrapper .registre-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.div .caixa{
+    position: relative;
+    left: 100px;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+
+}
+/*a:-webkit-any-link {
+    font-size: small;
+    position: relative;
+    right: -50px;
+    top:-85px
+}*/
+
+input[type="checkbox" i] {
+    margin: none;
+    position: relative;
+    top: 25px;
+    left: -120px;
+}
+
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    position: relative;
+    right:10px
+}
